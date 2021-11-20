@@ -1,12 +1,12 @@
-a.button { -webkit-appearance: button; -moz-appearance: button; appearance: button; text-decoration:tomato; color: red; }
 
-/**{
+
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
   }
-*/
+
 
 body {
     background-color: aqua; 
@@ -21,7 +21,6 @@ aside {
 }
 
 aside:hover {
-
 background-color:darkseagreen;
 }
 
@@ -30,6 +29,21 @@ p  {
     color:rgb(182, 46, 152);
     margin-inline: 30px ;
 }
+
+nav{
+  position: static;
+  z-index: 999;
+}
+nav ul{
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  overflow: hidden;
+}
+nav ul li {
+  float: left;
+}
+
 
 nav {
     color: rgb(91, 167, 230);
@@ -102,6 +116,19 @@ a:active {
     text-align: center;
     -webkit-text-size-adjust: inherit;
   }
+
+
+  [class*="col-"] {
+      float: left;
+      padding: 150px;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      text-align: center;
+      vertical-align: middle;
+    }
+
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
