@@ -12,6 +12,18 @@ body {
     background-color: aqua; 
 }
 
+h1::before {
+  content:url(/images/giphy.gif);
+  
+}
+h1::after{
+  content:url(/images/giphy.gif);
+}
+
+
+
+
+
 aside {
     background-color:blanchedalmond;
     color:cadetblue;
