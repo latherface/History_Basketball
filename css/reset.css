@@ -23,7 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+/* Restablecimiento de la función de visualización de HTML5 para los navegadores más antiguos */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -48,8 +48,8 @@ table {
 }
 
 /**
- * Remove inner padding and search cancel button in Safari 5 and Chrome
- * on OS X.
+ Eliminar el relleno interior y el botón de cancelación de la búsqueda en Safari 5 y Chrome
+
  */
 
  input[type="search"]::-webkit-search-cancel-button,
