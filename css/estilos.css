@@ -1,0 +1,117 @@
+a.button { -webkit-appearance: button; -moz-appearance: button; appearance: button; text-decoration:tomato; color: red; }
+
+/**{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+*/
+
+body {
+    background-color: aqua; 
+}
+
+aside {
+    background-color:blanchedalmond;
+    color:cadetblue;
+    margin-left: 30px ;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+aside:hover {
+
+background-color:darkseagreen;
+}
+
+
+p  {
+    color:rgb(182, 46, 152);
+    margin-inline: 30px ;
+}
+
+nav {
+    color: rgb(91, 167, 230);
+    margin-left: 30px ;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 8px 8px;
+    text-decoration: none;
+  }
+  nav ul li a:hover:not(.active) {
+    background-color: #111;
+    opacity: 0.55;
+  }
+  nav ul li a.active {
+    background-color: #4CAF50;
+  }
+
+  .navFlag{
+    width: 30px;
+    height: 30px;
+  }  
+
+ a {
+     color:black;
+     text-align:justify;
+}
+
+footer {
+   margin-bottom: 10mm;
+    
+}
+input:focus {
+background-color:violet;
+}
+
+/* enlace no visitado */
+a:link {
+    color:black;
+
+}
+
+/* enlace visitado */
+a:visited {
+    color:rgb(105, 9, 184);
+}
+
+/*seleccionado con el mouse el enlace */
+a:hover {
+    color:red;
+}
+
+/*enlace seleccionado */
+a:active {
+   color:sienna;
+
+
+
+}
+
+.text1{
+    letter-spacing: 1px;
+    font: size 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    -webkit-text-size-adjust: inherit;
+  }
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
