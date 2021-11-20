@@ -5,16 +5,26 @@
     <title>Pseudo_Elements</title>
     <style>
     p::first-line {
-    color: #0432A0 ;
-    background-color: #F4C844;
+    color: #080808 ;
+    background-color: #76b994;
     font-variant: small-caps;}
+    
+    p.intro::first-letter {
+    color:rgb(19, 2, 2);
+    background-color: rgb(235, 10, 40); font-variant: small-caps;
+    }
+    
     </style>
+    
     </head>
     
-    <body style="font-family:Roboto; color:#404040">
-    <p style="font-family:Roboto; color:#404040">Puedes usar el pseudo-element ::first-line
-    para agregar un efecto especial al la primera linea de un texto. Algun texto o incluso
+    <body>
+    <p>Puedes usar el pseudo-element ::first-line para agregar un efecto especial al la primera linea de un texto. Algun texto o incluso
     más, y más, y más, y más, y más, y más, y más, y más texto...</p>
+    <p>También se puede combinar elementos con clases</p>
+    <p class="intro">Esto es una introducción de seudo_elements</p><p>La conclusión del documento</p> 
+
+
     </body>
 
 </html>

@@ -1,12 +1,10 @@
 
-
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
   }
-
 
 body {
     background-color: aqua; 
@@ -19,9 +17,6 @@ h1::before {
 h1::after{
   content:url(/images/giphy.gif);
 }
-
-
-
 
 
 aside {
@@ -55,7 +50,6 @@ nav ul{
 nav ul li {
   float: left;
 }
-
 
 nav {
     color: rgb(91, 167, 230);
