@@ -48,7 +48,6 @@ aside:hover {
 background-color:rgb(166, 255, 144);
 }
 
-
 p  {
     color:rgb(0, 0, 0);
     margin-inline: 30px ;
@@ -77,7 +76,7 @@ nav {
     color: rgb(91, 167, 230);
     margin-left: 30px ;
     font-style: italic;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Georgia, Times New Roman, Times, serif;
 }
 
 nav ul li a {
@@ -104,11 +103,16 @@ nav ul li a {
      text-align:justify;
 }
 
-footer {
+footer  {
    margin-bottom: 10mm;
-   color:purple
-
-    
+   
+}
+footer p{
+    height:auto;
+    width:auto;
+    max-height:auto;
+    max-width: auto;
+    color:blueviolet;
 }
 input:focus {
 background-color:violet;
